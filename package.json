@@ -4,14 +4,14 @@
   "description": "A REST API that allows people to POST their feedback about experimentation Monday anonymously. Includes a single endpoint.",
   "main": "index.js",
   "scripts": {
-	"prestart": "npm install",
-	"start": "node index.js"
+	  "prestart": "yarn",
+	  "start": "node index.js"
   },
   "keywords": [
     "swagger"
   ],
-  "license": "Unlicense",
-  "private": true,
+  "license": "EUPL-1.1",
+  "private": false,
   "dependencies": {
     "connect": "^3.2.0",
     "js-yaml": "^3.3.0",
